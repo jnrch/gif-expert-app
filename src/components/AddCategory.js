@@ -24,6 +24,7 @@ export const AddCategory = ({ setcategories }) => {
     return (
         <>
         <form onSubmit={ hanleSubmit }>
+            <p> { inputValue }</p>
             <input 
                 type = "text"
                 value = { inputValue }
